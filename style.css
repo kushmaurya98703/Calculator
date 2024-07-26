@@ -1,0 +1,48 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    height: 90vh;
+    width: 40vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(197, 189, 189);
+}
+.display{
+    color: white;
+    background-color: rgb(92, 73, 100);
+    min-height: 13%;
+    border: 2px solid black;
+    margin: 1.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1%;
+    font-size: 3rem;
+    padding-right: 20px;
+}
+.button{
+    background-color: pink;
+    min-height: 78%;
+    margin: 1.5%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+button{
+    font-size: 30px;
+    transition: all 0.2s ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+    transform: scale(1.08);
+    color: white;
+    
+}
+
